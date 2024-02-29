@@ -11,7 +11,7 @@ export default function ListingItem({ listing, id, onEdit, onDelete }) {
     shadow-md hover:shadow-xl rounded-md overflow-hidden transition-shadow 
     duration-150 m-[10px]"
     >
-      <Link className="contents" to={`category/${listing.type}/${id}`}>
+      <Link className="contents" to={`/category/${listing.type}/${id}`}>
         <img
           className="h-[170px] w-full object-cover hover:scale-105
         transition-scale duration-200 ease-in"
