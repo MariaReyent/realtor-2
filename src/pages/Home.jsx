@@ -1,5 +1,9 @@
-const Home = () => {
-  return <div>Home</div>;
-};
+import Slider from "../components/Slider";
 
-export default Home;
+export default function Home() {
+  return (
+    <div>
+      <Slider />
+    </div>
+  );
+}
